@@ -171,6 +171,8 @@ body {
   background-position: center;
   position: absolute;
   bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: -1;
 }
 
@@ -221,6 +223,10 @@ body {
 
 .flex-1 {
   flex: 1;
+}
+
+.text-primary {
+  color: var(--primary);
 }
 
 .top {
@@ -444,4 +450,43 @@ hr {
 .about-meal p {
   line-height: 1.7;
   margin-bottom: 4rem;
+}
+
+.our-services {
+  background: var(--light);
+  position: relative;
+  z-index: 0;
+}
+
+.our-services .card-wrapper {
+  margin-right: -2rem;
+  margin-top: 8rem;
+}
+
+.our-services .service-card {
+  background: var(--heaven);
+  text-align: center;
+  padding: 2rem;
+  padding-top: 4rem;
+  margin-right: 2rem;
+  position: relative;
+  border-radius: 4px;
+}
+
+.our-services .service-card .icon {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.our-services .service-card h2 {
+  font-family: "Raleway-bold";
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.our-services .service-card p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
 }
