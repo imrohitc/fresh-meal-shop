@@ -229,6 +229,10 @@ body {
   color: var(--primary);
 }
 
+.text-pure {
+  color: var(--pure);
+}
+
 .top {
   padding: 1.5rem 0;
 }
@@ -489,4 +493,45 @@ hr {
 .our-services .service-card p {
   line-height: 1.6;
   margin-bottom: 1rem;
+}
+
+.big-deal {
+  background: linear-gradient(rgba(35, 43, 56, 0.9), rgba(35, 43, 56, 0.9)),
+    url(../images/food-table.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.big-deal .timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -2rem;
+  margin-bottom: 2rem;
+}
+
+.big-deal .timer div {
+  margin-right: 2rem;
+  background: var(--primary);
+  width: 150px;
+  height: 150px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-deal .timer div span:first-child {
+  font-family: "Raleway-semibold";
+  font-size: 2.5rem;
+  color: var(--heaven);
+  margin-bottom: 0.05rem;
+}
+
+.big-deal .timer div span:last-child {
+  font-family: "Raleway-medium";
+  color: var(--heaven);
 }
